@@ -50,6 +50,7 @@ body main {
     margin: 1em 1em;
     box-shadow: 7px 7px 5px rgb(78, 78, 78);
     justify-content: inherit;
+    transition: 1.5s;
    }
 
    #firstFour{
@@ -69,7 +70,37 @@ margin: 1em
     font-size: large;
     
    }
-   .total article:hover{
-    transform: scale(1.5);
-  z-index: 5;
+   article.total:hover{
+    cursor: pointer;
+    scale : 1.3;
+  z-index: 4;
    }
+   #post1:hover{
+   
+   transform: translate(0px) rotate(0deg);
+}
+#post5:hover{
+   
+    transform: translate(0px) rotate(0deg);
+}
+   #post7:hover{
+    
+    transform: translate(0px) rotate(0deg);}
+    #post3:hover{
+        
+        transform: translate(0px) rotate(0deg);
+     }
+     #post6:hover{
+    
+     transform: translate(0px) rotate(0deg);}
+     #post2:hover{
+        
+        transform: translate(0px) rotate(0deg);
+        }
+        #post4:hover{
+       
+        transform: translate(0px) rotate(0deg);
+        }
+        #post8:hover{
+        
+        transform: translate(0px) rotate(0deg);}
